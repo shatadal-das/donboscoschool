@@ -7,7 +7,8 @@
     "prod": "vite build && tsc && vite preview",
     "build": "vite build && tsc",
     "serve": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
@@ -24,6 +25,8 @@
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
     "jsdom": "^26.0.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.0.9",
     "typescript": "^5.7.2",
     "vite": "^6.1.0",
