@@ -5,5 +5,7 @@ export const Route = createFileRoute("/")({
 })
 
 function PageComponent() {
-  return <div className="bg-gray-700 px-4 py-2 text-white">hello</div>
+  return (
+    <div>Home</div>
+  )
 }

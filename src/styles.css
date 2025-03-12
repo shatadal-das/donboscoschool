@@ -3,7 +3,7 @@
 
 @layer base {
   body {
-    @apply font-primary;
+    @apply font-primary text-[clamp(0.85rem,1.5vw+0.01rem,1.2rem)];
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
